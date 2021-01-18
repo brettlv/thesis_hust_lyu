@@ -163,18 +163,18 @@
       \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
       % 中文字体
       \setmainjfont[
-       BoldFont={AdobeHeitiStd-Regular},
-       ItalicFont={AdobeKaitiStd-Regular}]{AdobeSongStd-Light}
-      \setsansjfont{AdobeKaitiStd-Regular}
+       BoldFont={AdobeHeitiStd-Regular.otf},
+       ItalicFont={AdobeKaitiStd-Regular.otf}]{AdobeSongStd-Light.otf}
+      \setsansjfont{AdobeKaitiStd-Regular.otf}
       \defaultjfontfeatures{JFM=kaiming}
 
       \newcommand\ziju[2]{\vbox{\ltjsetparameter{kanjiskip=#1} #2}}
-      \newjfontfamily\HEI{AdobeHeitiStd-Regular}
-      \newjfontfamily\KAI{AdobeKaitiStd-Regular}
-      \newjfontfamily\FANGSONG{AdobeFangsongStd-Regular}
-      \newcommand{\hei}[1]{{\jfontspec{AdobeHeitiStd-Regular} #1}}
-      \newcommand{\kai}[1]{{\jfontspec{AdobeKaitiStd-Regular} #1}}
-      \newcommand{\fangsong}[1]{{\jfontspec{AdobeFangsongStd-Regular} #1}}
+      \newjfontfamily\HEI{AdobeHeitiStd-Regular.otf}
+      \newjfontfamily\KAI{AdobeKaitiStd-Regular.otf}
+      \newjfontfamily\FANGSONG{AdobeFangsongStd-Regular.otf}
+      \newcommand{\hei}[1]{{\jfontspec{AdobeHeitiStd-Regular.otf} #1}}
+      \newcommand{\kai}[1]{{\jfontspec{AdobeKaitiStd-Regular.otf} #1}}
+      \newcommand{\fangsong}[1]{{\jfontspec{AdobeFangsongStd-Regular.otf} #1}}
     \else\fi
     \RequirePackage{zhnumber}
     \def\CJKnumber#1{\zhnumber{#1}} % 兼容CJKnumb
