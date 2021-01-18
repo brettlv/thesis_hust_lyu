@@ -134,22 +134,22 @@
         BoldFont=*-bold,
         ItalicFont=*-italic,
         BoldItalicFont=*-bolditalic]{texgyretermes}
-      \setsansfont[Ligatures={Common,TeX}]{Droid Sans}
+      \setsansfont[Ligatures={Common,TeX}]{DroidSans.ttf}
       \setmonofont{SimFang.ttf}
       \defaultfontfeatures{Mapping=tex-text}
       % 中文字体
       \RequirePackage[CJKmath]{xeCJK}
       \setCJKmainfont[
-       BoldFont={AdobeHeitiStd-Regular},
-       ItalicFont={AdobeKaitiStd-Regular}]{AdobeSongStd-Light}
-      \setCJKsansfont{AdobeKaitiStd-Regular}
-      \setCJKmonofont{AdobeFangsongStd-Regular}
+       BoldFont={AdobeHeitiStd-Regular.otf},
+       ItalicFont={AdobeKaitiStd-Regular.otf}]{AdobeSongStd-Light.otf}
+      \setCJKsansfont{AdobeKaitiStd-Regular.otf}
+      \setCJKmonofont{AdobeFangsongStd-Regular.otf}
       \xeCJKsetup{PunctStyle=kaiming}
 
       \newcommand\ziju[2]{{\renewcommand{\CJKglue}{\hskip #1} #2}}
-      \newCJKfontfamily\HEI{AdobeHeitiStd-Regular}
-      \newCJKfontfamily\KAI{AdobeKaitiStd-Regular}
-      \newCJKfontfamily\FANGSONG{AdobeFangsongStd-Regular}
+      \newCJKfontfamily\HEI{AdobeHeitiStd-Regular.otf}
+      \newCJKfontfamily\KAI{AdobeKaitiStd-Regular.otf}
+      \newCJKfontfamily\FANGSONG{AdobeFangsongStd-Regular.otf}
       \newcommand{\hei}[1]{{\HEI #1}}
       \newcommand{\kai}[1]{{\KAI #1}}
       \newcommand{\fangsong}[1]{{\FANGSONG #1}}
