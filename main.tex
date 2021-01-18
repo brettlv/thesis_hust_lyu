@@ -1,0 +1,189 @@
+%%
+%% This is file `hustthesis-zh-example.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% hustthesis.dtx  (with options: `example-zh')
+%% 
+%% This is a generated file.
+%% 
+%% Copyright (C) 2013-2014 by Xu Cheng <xucheng@me.com>
+%%               2014-2016 by hust-latex <https://github.com/hust-latex>
+%% 
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%% 
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is hust-latex Organization.
+%% 
+%% This work consists of the files hustthesis.bst, hustthesis.dtx,
+%% hustthesis.ins and the derived file hustthesis.cls
+%% along with its document and example files.
+%% 
+%% \CharacterTable
+%% {Upper-case    \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
+%%  Lower-case    \a\b\c\d\e\f\g\h\i\j\k\l\m\n\o\p\q\r\s\t\u\v\w\x\y\z
+%%  Digits        \0\1\2\3\4\5\6\7\8\9
+%%  Exclamation   \!     Double quote  \"     Hash (number) \#
+%%  Dollar        \$     Percent       \%     Ampersand     \&
+%%  Acute accent  \'     Left paren    \(     Right paren   \)
+%%  Asterisk      \*     Plus          \+     Comma         \,
+%%  Minus         \-     Point         \.     Solidus       \/
+%%  Colon         \:     Semicolon     \;     Less than     \<
+%%  Equals        \=     Greater than  \>     Question mark \?
+%%  Commercial at \@     Left bracket  \[     Backslash     \\
+%%  Right bracket \]     Circumflex    \^     Underscore    \_
+%%  Grave accent  \`     Left brace    \{     Vertical bar  \|
+%%  Right brace   \}     Tilde         \~}
+
+%% https://github.com/hust-latex/hustthesis
+
+\documentclass[format=draft,language=chinese,degree=phd]{hustthesis}
+\usepackage{ctex}
+%\usepackage{xeCJK}
+%\setCJKmainfont{SimSun.ttf}
+%\setCJKsansfont{SimHei.ttf}
+%\setCJKmonofont{SimFang.ttf}
+\usepackage{verbatim}
+\usepackage{fontspec}
+
+
+\stuno{D201880056}
+\schoolcode{10487}
+%\title{\LaTeX 模板使用示例}{An Example of Using hustthesis \LaTeX{} Template}
+\title{活动星系核的能谱演化与时变研究}{AGN's spectrum evolution and timing study }
+\author
+{吕兵}{Lyu Bing}
+\major{理论物理}{Theoretical Physics}
+%{物理学院天文学系}{School of Physics, Department of Astronomy}
+\supervisor
+{吴庆文\hspace{1em}教授}{Prof. Wu Qingwen}
+\date{2021}{7}{30} 
+\clearpage
+\zhabstract{
+ 活动星系核是宇宙中极亮的一种天体源，
+
+}
+\zhkeywords{活动星系核}
+
+\enabstract
+{
+%active galactic nucleus
+Active galactic nuclei (AGNs)
+
+
+}
+\enkeywords
+{AGN}
+
+\graphicspath{{./}{fig/}}
+
+\begin{document}
+\frontmatter
+\maketitle
+\makeabstract
+\tableofcontents
+%\listoffigures
+%\listoftables
+\mainmatter
+
+\chapter{引言}\label{chapter:1}
+\section{活动星系核观测历史与分类}\label{sec:1.1}
+活动星系核的发现最早是由进行的\footnote{\label{footnote:1}脚注}
+
+\section{活动星系核统一模型与挑战}\label{sec:1.2}
+\section{变脸活动星系核}\label{sec:1.3}
+%\subsection{分类}\label{sec:2}
+%\subsubsection{统一模型}\label{sec:3}
+
+
+
+
+
+\chapter{变脸活动星系核的能谱演化}\label{chapter:2}
+\section{变脸活动星系核}\label{sec:2.1}
+\section{变脸活动星系核}\label{sec:2.2}
+\section{变脸活动星系核}\label{sec:2.3}
+
+
+
+\chapter{变脸活动星系核的尘埃反响映射}\label{chapter:3}
+\section{变脸活动星系核}\label{sec:3.1}
+\section{变脸活动星系核}\label{sec:3.2}
+\section{变脸活动星系核}\label{sec:3.3}
+
+
+
+\chapter{总结与展望}\label{chapter:last}
+\section{变脸活动星系核}\label{sec:last.1}
+\section{变脸活动星系核}\label{sec:last.2}
+\section{变脸活动星系核}\label{sec:last.3}
+
+\begin{comment}
+\chapter{字体}\label{chapter:n}
+\section{字体}
+\textit{$N_\mathrm{H}$}
+普通\textbf{粗体}\textit{斜体}\emph{斜体}
+\hei{黑体}\kai{楷体}\fangsong{仿宋}
+ \textbf {加粗命令}
+显示直立文本： \textup{文本}
+意大利斜体： \textit{文本} 
+slanted斜体： \textsl{文本}
+显示小体大写文本： \textsc{文本}
+中等权重： \textmd{文本}
+加粗命令： \textbf {文本}
+默认值： \textnormal{文本}
+斜体字：\textit{italic}，或者\emph{italic}
+使用等宽字体：\texttt{code}
+使用无衬线字体：\textsf{sans-serif}
+所有字母大写：\uppercase{CAPITALS}
+所有字母大写，但小写字母比较小：\textsc{Small Capitals}
+
+
+\section{参考文献示例}
+这是一篇中文参考文献\cite{TEXGURU99}；这是一篇英文参考文献\cite{knuth}；同时引用\cite{TEXGURU99,knuth}。
+\end{comment}
+
+\bibliography{ref-example.bib}
+\clearpage
+%\begin{publications}  
+	%\begin{itemize}
+	%\item 论文1 写写
+	%\item 论文2 例子
+	%\end{itemize}
+%\end{publications}
+
+
+%\chapter{这是一个附录}\label{appendix:1}
+%附录正文。
+\appendix
+\chapter{攻读博士学位期间发表的论文}%\label{appendix:1}
+%附录正文。
+\begin{enumerate}[labelindent=0pt,label={[\arabic*]},itemsep=0.5ex]
+	\fontsize{10.5pt}{10.5pt}\selectfont
+	%\begin{itemize}
+	\item 论文1
+	\item 论文2	
+	%\end{itemize}
+\end{enumerate}
+
+
+
+
+\backmatter
+\begin{ack}
+	致谢正文。
+\end{ack}
+
+
+\end{document}
+\endinput
+%%
+%% End of file `hustthesis-zh-example.tex'.
